@@ -1,6 +1,6 @@
 FROM sergef/docker-library-nginx:1.12.1.2
 
-ARG CONSUL_VERSION=v0.9.2
+ARG CONSUL_VERSION=v0.9.3
 ENV CONSUL_VERSION ${CONSUL_VERSION}
 
 RUN echo 'http://alpine.gliderlabs.com/alpine/v3.5/main' > /etc/apk/repositories \
